@@ -1,0 +1,5 @@
+scenario,records,fatal_record_share,summed_fatality_values,field,day_records,night_records,day_fatal_record_share,night_fatal_record_share,difference_night_minus_day
+Exact-row deduplication only,47676,0.668176860474872,47738,lighting,22894,12917,0.6733642002271337,0.6664086088100952,-0.006955591417038498
+One earliest row per source ID (unverified identity),17497,0.6690861290506944,17537,lighting,8369,4750,0.6712868921018043,0.6736842105263158,0.0023973184245115187
+One earliest row per descriptor group (unverified identity),2321,0.6828953037483844,2358,lighting,1071,692,0.6900093370681606,0.6719653179190751,-0.01804401914908549
+One latest row per descriptor group (unverified identity),2321,0.6622145626884963,2312,lighting,1043,675,0.660594439117929,0.674074074074074,0.013479634956145015

@@ -1,0 +1,109 @@
+{
+  "analysis_unit": "Published workbook record; independently verified accidents unavailable",
+  "descriptive_effects": [
+    {
+      "field": "lighting",
+      "estimable": true,
+      "records": 47676,
+      "chi_square_discrepancy": 6.557593303092117,
+      "degrees_of_freedom": 3,
+      "min_expected_cell": 819.603154627066,
+      "cramers_v": 0.01172795615604182,
+      "p_value_reported": false,
+      "reason": "Independent verified incident units and measurement validity are not established; descriptive effect only"
+    },
+    {
+      "field": "light_original",
+      "estimable": true,
+      "records": 47676,
+      "chi_square_discrepancy": 2.5511225182727446,
+      "degrees_of_freedom": 2,
+      "min_expected_cell": 5221.237100427888,
+      "cramers_v": 0.007315023952900739,
+      "p_value_reported": false,
+      "reason": "Independent verified incident units and measurement validity are not established; descriptive effect only"
+    },
+    {
+      "field": "weather_y",
+      "estimable": true,
+      "records": 47676,
+      "chi_square_discrepancy": 5.2063429155121534,
+      "degrees_of_freedom": 3,
+      "min_expected_cell": 1486.5676650725732,
+      "cramers_v": 0.010450004541732422,
+      "p_value_reported": false,
+      "reason": "Independent verified incident units and measurement validity are not established; descriptive effect only"
+    },
+    {
+      "field": "weather_x",
+      "estimable": true,
+      "records": 47676,
+      "chi_square_discrepancy": 2.310632687514878,
+      "degrees_of_freedom": 3,
+      "min_expected_cell": 3922.4813323265375,
+      "cramers_v": 0.00696170395182133,
+      "p_value_reported": false,
+      "reason": "Independent verified incident units and measurement validity are not established; descriptive effect only"
+    },
+    {
+      "field": "severity_label",
+      "estimable": true,
+      "records": 47676,
+      "chi_square_discrepancy": 0.5554998279563347,
+      "degrees_of_freedom": 3,
+      "min_expected_cell": 3688.8778421008474,
+      "cramers_v": 0.003413438313487374,
+      "p_value_reported": false,
+      "reason": "Independent verified incident units and measurement validity are not established; descriptive effect only"
+    },
+    {
+      "field": "road_class",
+      "estimable": true,
+      "records": 47676,
+      "chi_square_discrepancy": 7.5665552051938105,
+      "degrees_of_freedom": 3,
+      "min_expected_cell": 1.9909388371507677,
+      "cramers_v": 0.012597930176293914,
+      "p_value_reported": false,
+      "reason": "Independent verified incident units and measurement validity are not established; descriptive effect only"
+    }
+  ],
+  "night_day_effect": {
+    "field": "lighting",
+    "day_records": 22894,
+    "night_records": 12917,
+    "day_fatal_record_share": 0.6733642002271337,
+    "night_fatal_record_share": 0.6664086088100952,
+    "difference_night_minus_day": -0.006955591417038498
+  },
+  "night_day_alternative_light_field": {
+    "field": "light_original",
+    "day_records": 15952,
+    "night_records": 15735,
+    "day_fatal_record_share": 0.6664368104312939,
+    "night_fatal_record_share": 0.6650778519224658,
+    "difference_night_minus_day": -0.0013589585088280565
+  },
+  "conditional_bootstrap": {
+    "confidence_level_conditional_model": 0.95,
+    "lower": -0.017764033215497962,
+    "upper": 0.0028745567180528766,
+    "descriptor_clusters": 2212,
+    "repetitions": 2000,
+    "seed": 42,
+    "interpretation": "Conditional percentile bootstrap for published descriptor groups; NOT a validated incident-level or population-risk confidence interval"
+  },
+  "descriptor_sensitivity_bounds": {
+    "descriptor_groups": 2321,
+    "fatal_share_lower": 0.14347264110297286,
+    "fatal_share_upper": 0.950021542438604,
+    "interpretation": "Conditional min/max bounds if each descriptor group represented one incident; NOT confidence limits"
+  },
+  "fatality_injury_spearman_rho": -0.0008787533941192431,
+  "p_values_withheld": true,
+  "population_safety_confidence_intervals_withheld": true,
+  "reason": "Source attribution, chronology, incident identity, and field validity remain unresolved",
+  "summed_fatality_values": 47738,
+  "summed_injury_values": 95049,
+  "fatal_record_share": 0.668176860474872
+}

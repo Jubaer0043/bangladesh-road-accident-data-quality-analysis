@@ -1,0 +1,7 @@
+{
+  "records": 47676,
+  "participant_links": 94981,
+  "row_key": "source_row",
+  "grain": "Exact-deduplicated published workbook records",
+  "passed": true
+}

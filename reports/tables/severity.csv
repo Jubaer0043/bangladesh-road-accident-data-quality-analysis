@@ -1,0 +1,5 @@
+severity_label,records,fatal_records,summed_fatality_values,fatal_record_share
+Vehicle Collision,12923,8626,12926,0.6674920684051691
+Minor Injury,11919,7948,11922,0.6668344659786895
+Death,11717,7822,11701,0.6675770248357088
+Extensive Injury,11117,7460,11189,0.6710443464963569

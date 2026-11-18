@@ -1,0 +1,30 @@
+{
+  "checks": {
+    "source_hashes_preserved": true,
+    "original_shape_matches_audit": true,
+    "only_exact_duplicate_rows_removed": true,
+    "cleaned_count_reconciles": true,
+    "internal_row_key_unique": true,
+    "sql_integrity_and_foreign_keys": true,
+    "sql_cleaned_rows_agree": true,
+    "sql_fatality_values_preserved": true,
+    "sql_injury_values_preserved": true,
+    "date_conflict_audit_recomputed": true,
+    "declared_year_table_reconciles": true,
+    "parsed_year_table_reconciles": true,
+    "month_tables_reconcile": true,
+    "time_table_reconciles": true,
+    "severity_table_reconciles": true,
+    "participant_links_cover_records_without_duplicate_pairs": true,
+    "descriptor_sensitivity_counts_match": true,
+    "statistical_effect_recomputed": true,
+    "conditional_interval_finite_and_bounded": true,
+    "substantive_limitations_retained": true,
+    "ten_valid_figures": true,
+    "notebook_sequence_executed_without_errors": true,
+    "reports_present": true
+  },
+  "passed": true,
+  "meaning": "Implementation fidelity only; source suitability is assessed separately in data_quality.json",
+  "source_quality_status": "NOT FIT for national trends, incident-risk estimation, or causal safety conclusions"
+}

@@ -1,0 +1,29 @@
+{
+  "source_url": "https://data.mendeley.com/datasets/p2kgkb5cd2/2",
+  "doi": "10.17632/p2kgkb5cd2.2",
+  "dataset_version": 2,
+  "authors": [
+    "Fernaz Nur",
+    "Arafat Sahin Afridi"
+  ],
+  "license": "CC BY 4.0",
+  "published_date": "2025-10-17",
+  "acquired_at_utc": "2026-11-18T18:26:54.809128+00:00",
+  "file_id": "d6a2455e-9cb3-463e-b736-29473a89bf86",
+  "inventory_endpoint": "https://data.mendeley.com/public-api/datasets/p2kgkb5cd2/files?folder_id=root&version=2&$start=0&$limit=1000",
+  "download_url": "https://data.mendeley.com/public-files/datasets/p2kgkb5cd2/files/d6a2455e-9cb3-463e-b736-29473a89bf86/file_downloaded",
+  "archive_sha256": "ece6ee48507eb50437079dfb43158a3448e50b249535f4ececa4b5b51dd452d4",
+  "workbook_sha256": "d8b5e054b934377d7fedb08b9ac814edb174b4943d8888803fac28af508125cb",
+  "archive_member": "Accident_Dataset final/Modified_Accident_Dataset final.xlsx",
+  "workbook_bytes": 6324598,
+  "publisher_claimed_records": 49566,
+  "publisher_claimed_coverage": "2007–2024",
+  "publisher_claimed_sources": {
+    "ARI": "2007–2021",
+    "BRTA": "2024",
+    "DMP": "2020–2024",
+    "MP Unit": "2020–2024",
+    "Field forms": "Not specified"
+  },
+  "source_claims_verified_against_institutional_records": false
+}

@@ -1,0 +1,13 @@
+{
+  "valid_coordinate_records": 47657,
+  "distinct_coordinate_pairs": 175,
+  "latitude_min": 23.62319,
+  "latitude_max": 24.4276,
+  "longitude_min": 90.34425,
+  "longitude_max": 90.59843,
+  "dominant_coordinate_records": 45506,
+  "dominant_latitude": 23.83113,
+  "dominant_longitude": 90.42431,
+  "district_or_division_column_present": false,
+  "interpretation": "Coordinates and free-text locations do not establish national coverage; no validated administrative or route boundaries"
+}

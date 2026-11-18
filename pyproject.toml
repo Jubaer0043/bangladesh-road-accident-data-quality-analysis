@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bangladesh-road-safety-analytics"
+version = "1.0.0"
+description = "Source-audited analysis of the published Bangladesh accident dataset"
+requires-python = ">=3.11"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+bd-safety = "bd_safety.cli:main"

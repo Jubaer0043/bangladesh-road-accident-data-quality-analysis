@@ -1,0 +1,5 @@
+road_condition,records,fatal_records,summed_fatality_values,mean_fatality_value,fatal_record_share
+Dry,47665,31846,47725,1.0012587852722123,0.6681212629812231
+Good,1,1,1,1.0,1.0
+Others,1,1,1,1.0,1.0
+Wet,9,8,11,1.2222222222222223,0.8888888888888888
